@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/matematica.css">
+    <title>Simulado</title>
+</head>
+<body>
+    <div id="matematica" style="display: block;">
+        <form method="post" action="teste.html" id="matematicaForm">
+            <h1>Simulado de Matemática</h1>
+            <p>1- Se um pacote de lápis custa R$ 1,50, quanto custam 5 pacotes de lápis?</p>
+            <label>
+                <input type="radio" name="resposta1" value="A" data-resposta-correta="true" required> A) R$ 3,50
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="B" data-resposta-correta="false" required> B) R$ 4,50
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="C" data-resposta-correta="false" required> C) R$ 5,00
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="D" data-resposta-correta="false" required> D) R$ 7,50
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="E" data-resposta-correta="false" required> E) R$ 10,00
+            </label><br>
+            
+            <p>2- Numa festa foram preparados 4 kg de feijão, 8 kg de arroz e 6 kg de carne.<br>
+                Quantos gramas de comida foram preparadas no total?</p>
+            <label>
+                <input type="radio" name="resposta2" value="A" data-resposta-correta="false" required> A) 18 g
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="B" data-resposta-correta="false" required> B) 180 g 
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="C" data-resposta-correta="false" required> C) 1800 g
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="D" data-resposta-correta="false" required> D) 180000 g
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="E" data-resposta-correta="true" required> E) 18000 g
+            </label><br>
+            <p>3- Caio percorreu 3000 metros de bicicleta em 30 minutos. Quantos quilômetros<br>
+                (km) ele percorrerá em 1 hora?
+            </p><br>
+            <label>
+                <input type="radio" name="resposta3" value="A"data-resposta-correta="true" required> A) 6 km
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" data-resposta-correta="false" required> B) 9 km
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="C" data-resposta-correta="false" required> C) 60km 
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="D" data-resposta-correta="false" required> D) 90 km
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="E" data-resposta-correta="false" required> E) 3 km
+            </label><br>
+            <br> <hr>
+    
+            <p>4- Uma partida de futebol demora uma hora e meia. Estamos a 15 minutos do final<br>
+                da partida. Quantos minutos de jogo já se passaram?
+            </p><br>
+            <label>
+                <input type="radio" name="resposta4" value="A" data-resposta-correta="false" required> A) 15 minutos.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="B" data-resposta-correta="true" required> B) 75 minutos.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="C" data-resposta-correta="false" required> C) 90 minutos.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="D" data-resposta-correta="false" required> D) 105 minutos.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="E" data-resposta-correta="false" required> E) 100 minutos.
+            </label><br>
+            <br> <hr>
+    
+            <input type="hidden" name="resposta1_correta" value="B">
+            <p>5- Uma partida de futebol demora uma hora e meia. Estamos a 15 minutos do final<br>
+                da partida. Quantos minutos de jogo já se passaram?
+            </p><br>
+            <label>
+                <input type="radio" name="resposta5" value="A" data-resposta-correta="false" required> A) 56
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="B" data-resposta-correta="false" required> B) 81
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="C" data-resposta-correta="false" required> C) 156
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="D" data-resposta-correta="true" required> D) 264
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="E" data-resposta-correta="false" required> E) 75
+            </label><br>
+            <hr><br> <br>
+            
+            <!-- Adicione mais perguntas de Matemática da mesma maneira, alterando o nome para resposta3, resposta4, etc. -->
+            
+            <hr><br> <br>
+            <input type="submit" value="Avançar para Português">
+        </form>
+    </div>
+
+    <div id="portugues" style="display: none;">
+        <form method="post" action="portugues.html" id="portuguesForm">
+            <h1>Simulado de Português</h1>
+            <p>1- Qual é o plural de "gato"?</p>
+            <label>
+                <input type="radio" name="resposta6" value="A" data-resposta-correta="false" required> A) Gatas.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta6" value="B" data-resposta-correta="true" required> B) Gatos.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta6" value="C" data-resposta-correta="false" required> C) Gatus.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta6" value="D" data-resposta-correta="false" required> D) Gatões.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta6" value="E" data-resposta-correta="false" required> E) Gate.
+            </label><br>
+            <p>2- Qual a forma correta de escrever a palavra no diminutivo de "casa"?</p><br>
+            <label>
+                <input type="radio" name="resposta7" value="A" data-resposta-correta="true" required> A) Casinha.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta7" value="B" data-resposta-correta="false" required> B) Cazinha. 
+            </label><br>
+            <label>
+                <input type="radio" name="resposta7" value="C" data-resposta-correta="false" required> C) Cassinha.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta7" value="D" data-resposta-correta="false" required> D) Casaína.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta7" value="E" data-resposta-correta="false" required> E) Casão.
+            </label><br>
+            <br> <hr>
+    
+        <p>3- Qual a classe gramatical da palavra "rápido"?
+            </p><br>
+           <label>
+               <input type="radio" name="resposta8" value="A" data-resposta-correta="false" required> A) Substantivo.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta8" value="B" data-resposta-correta="false" required> B) Verbo.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta8" value="C" data-resposta-correta="true" required> C) Adjetivo.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta8" value="D" data-resposta-correta="false" required> D) Advérbio.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta8" value="E" data-resposta-correta="false" required> E) Nenhum.
+           </label><br>
+           <br> <hr>
+    
+        <p>4- Qual a forma correta de escrever a palavra no plural de "maçã"?
+            </p><br>
+           <label>
+               <input type="radio" name="resposta9" value="A" data-resposta-correta="false" required> A) Maçans.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta9" value="B" data-resposta-correta="true" required> B) Maças.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta9" value="C" data-resposta-correta="false" required> C) Maçãos.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta9" value="D" data-resposta-correta="false" required> D) Maçães.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta9" value="E" data-resposta-correta="false" required> E) Mação.
+           </label><br>
+           <br> <hr>
+    
+        <p>5- Qual é o antônimo de "feliz"?
+            </p><br>
+           <label>
+               <input type="radio" name="resposta10" value="A" data-resposta-correta="false" required> A) Alegre.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta10" value="B" data-resposta-correta="true" required> B) Triste.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta10" value="C" data-resposta-correta="false" required> C) Raiviso.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta10" value="D" data-resposta-correta="false" required> D) Contente.
+           </label><br>
+           <label>
+               <input type="radio" name="resposta10" value="E" data-resposta-correta="false" required> E) Satisfeito.
+           </label><br>
+           <br> <hr>
+            <!-- Adicione mais perguntas de Português da mesma maneira, alterando o nome para resposta4, resposta5, etc. -->
+            
+            <hr><br> <br>
+            <input type="submit" value="Avançar para Resultados">
+        </form>
+    </div>
+
+    <div id="resultado" style="display: none;">
+        <h2>Total de Acertos:</h2>
+        <p id="acertos"></p>
+        <a href="final.html">DESENVOLVEDORES!
+        <BR></BR>
+
+    </div>
+    <script>
+        // Função para alternar entre os formulários
+        function alternarFormulario(formularioAtual, formularioDestino) {
+            document.getElementById(formularioAtual).style.display = 'none';
+            document.getElementById(formularioDestino).style.display = 'block';
+        }
+
+        // Função para calcular e exibir o número de respostas corretas
+        function calcularRespostasCorretas() {
+            var totalPerguntas = 10; // Defina o número total de perguntas
+            var respostasCorretas = 0; // Inicialize o contador de respostas corretas
+
+            // Verifique as respostas para cada pergunta
+            for (var i = 1; i <= totalPerguntas; i++) {
+                var respostaCorreta = document.querySelector(`input[name="resposta${i}"][data-resposta-correta="true"]`);
+                var respostaUsuario = document.querySelector(`input[name="resposta${i}"]:checked`);
+
+                if (respostaCorreta && respostaUsuario && respostaCorreta.value === respostaUsuario.value) {
+                    respostasCorretas++;
+                }
+            }
+
+            // Exiba o número de respostas corretas
+            var acertosParagrafo = document.getElementById('acertos');
+            acertosParagrafo.textContent = `Total de Acertos: ${respostasCorretas} de ${totalPerguntas}`;
+        }
+
+        // Adicione um evento de clique para alternar entre os formulários de Matemática e Português
+        document.getElementById('matematicaForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Evita o envio padrão do formulário
+            alternarFormulario('matematica', 'portugues');
+        });
+
+        // Adicione um evento de clique para alternar entre os formulários de Português e Resultados
+        document.getElementById('portuguesForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Evita o envio padrão do formulário
+            alternarFormulario('portugues', 'resultado');
+            calcularRespostasCorretas(); // Calcule e exiba o número de respostas corretas
+        });
+    </script>
+</body>
+</html>
